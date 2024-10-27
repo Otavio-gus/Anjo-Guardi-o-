@@ -46,7 +46,7 @@ void enviaMensagem() {
   delay(100);
 
   // Número do receptor no formato internacional
-  SIM900.println("AT+CMGS=\"+5575992546349\""); 
+  SIM900.println("AT+CMGS=\"+5599999999999\""); 
   delay(100);
   
   // Conteúdo da mensagem SMS
@@ -64,7 +64,7 @@ void enviaMensagem() {
 }
 
 void ligaTelefone1() {
-  SIM900.println("ATD 75992546349;");
+  SIM900.println("ATD 999999999;");
   delay(10000);
   SIM900.println();
   delay(10000);
@@ -74,7 +74,7 @@ void ligaTelefone1() {
 }
 
 void ligaTelefone2() {
-  SIM900.println("ATD 7592359603;");
+  SIM900.println("ATD 999999999o;");
   delay(10000);
   SIM900.println();
   delay(10000);
