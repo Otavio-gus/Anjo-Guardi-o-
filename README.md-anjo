@@ -1,0 +1,10 @@
+O código em si tem uma estrutura muito simples
+ele para começar usando a biblioteca "SoftwareSerial"
+para as portas RX e TX(Receptação e Transmissão).
+Observação: dependendo do módulo que ultilizar vc deve 
+muda ou colocar mas um biblioteca, nesse casa específico 
+ele esta programado para o SIM900.
+Depois adiciona a porta 2 para guardar o estado do botão 
+mas se não for ultilizar, é só, tirá-lo do comando,
+também pode ser usado outro equipamento para substituir 
+o botão no código, vai depender de sua necessidade
